@@ -19,7 +19,8 @@ C:\ProgramData\Debloat\Debloat.log
   Author:         Andrew Taylor (https://github.com/andrew-s-taylor)
   Modified by:    Manh Cuong Tran
   Creation Date:  05/06/2024
-  Purpose/Change: Initial script development
+  Purpose/Change:
+    05/06/24: Keep 2 Dell apps "Dell SupportAssist OS Recovery" and "Dell Command | Update"
 N/A
 #>
 
@@ -1026,7 +1027,6 @@ $UninstallPrograms = @(
     "Dell Optimizer"
     "Dell Power Manager"
     "DellOptimizerUI"
-    "Dell SupportAssist OS Recovery"
     "Dell SupportAssist"
     "Dell Optimizer Service"
         "Dell Optimizer Core"
@@ -1037,7 +1037,6 @@ $UninstallPrograms = @(
         "DellInc.DellDigitalDelivery"
         "DellInc.DellSupportAssistforPCs"
         "DellInc.PartnerPromo"
-        "Dell Command | Update"
     "Dell Command | Update for Windows Universal"
         "Dell Command | Update for Windows 10"
         "Dell Command | Power Manager"
@@ -1066,6 +1065,8 @@ $WhitelistedApps = @(
     "WavesAudio.MaxxAudioProforDell2019"
     "Dell - Extension*"
     "Dell, Inc. - Firmware*"
+    "Dell SupportAssist OS Recovery"
+    "Dell Command | Update"
 )
 
 ##Add custom whitelist apps
