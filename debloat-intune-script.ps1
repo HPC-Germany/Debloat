@@ -12,7 +12,7 @@ Else {
 $templateFilePath = "C:\ProgramData\Debloat\removebloat.ps1"
 
 Invoke-WebRequest `
--Uri "https://github.com/HPC-Germany/Debloat/raw/main/RemoveBloat.ps1" `
+-Uri "https://raw.githubusercontent.com/HPC-Germany/Debloat/main/RemoveBloat.ps1" `
 -OutFile $templateFilePath `
 -UseBasicParsing `
 -Headers @{"Cache-Control"="no-cache"}
